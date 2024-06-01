@@ -1,0 +1,110 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(252, 252, 252, 0.1);
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.label-contact {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.input-contact {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.input-contact-a {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgb(220, 216, 216);
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea.input-contact {
+  resize: none;
+  height: 100px;
+}
+
+.date-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.date-container>div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="file"],
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.technologies {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.technologies .left-tech,
+.technologies .right-tech {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-contact {
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin-left: auto;
+}
+
+.line {
+  border: 1px solid rgb(220, 16, 16);
+  width: 100%;
+  margin: 20px 0;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assests/css/index.css">
+    <link rel="stylesheet" href="assests/css/blog.css">
+  </head>
+
+  <body>
+    <nav style="background-color: rgb(238, 238, 238); height: 80px;">
+      <div
+        style="display: flex; align-items: center; height: 100%; margin-left: 30px; margin-right: 30px;">
+        <ul
+          style="display: flex; list-style-type: none; gap: 45px; align-items: center;">
+          <li>
+            <img style="height: 50px;"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwIepaNe5M441jMGXR6c6R2ygo-8aW7-OLUw&s"
+              alt="logo dumbways">
+          </li>
+          <li class="nav-link">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-link">
+            <a href="blog.html">Blog</a>
+          </li>
+        </ul>
+
+        <div style="display: flex; width: 100%; justify-content: end;">
+          <a href="contact.html" class="btn-contact">Contact Me</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <form class="form-contact" onsubmit="submitBlog(event)">
+        <h1>ADD MY PROJECT</h1>
+        <label for="project-name">Project Name</label>
+        <input type="text" id="project-name" name="project-name"
+          class="input-contact">
+
+        <div class="date-container">
+          <div>
+            <label for="start-datetime">Start Date</label>
+            <input type="datetime-local" id="start-datetime"
+              name="start-datetime" class="input-contact">
+          </div>
+          <div>
+            <label for="end-datetime">End Date</label>
+            <input type="datetime-local" id="end-datetime" name="end-datetime"
+              class="input-contact">
+          </div>
+        </div>
+
+        <label for="description">Description</label>
+        <textarea class="input-contact" id="description"
+          name="description"></textarea>
+
+        <label>Technologies</label>
+        <div class="technologies">
+          <div class="left-tech">
+            <label><input type="checkbox" name="technologies" value="Node Js">
+              Node Js</label>
+            <label><input type="checkbox" name="technologies" value="React Js">
+              React Js</label>
+          </div>
+          <div class="right-tech">
+            <label><input type="checkbox" name="technologies" value="Next Js">
+              Next Js</label>
+            <label><input type="checkbox" name="technologies"
+                value="TypeScript"> TypeScript</label>
+          </div>
+        </div>
+
+        <div class="upload-container">
+          <label for="upload-image">Upload Image</label>
+          <input type="file" id="upload-image" name="upload-image"
+            class="input-contact">
+        </div>
+
+        <input type="submit" value="Submit" class="submit-contact">
+        <hr class="line">
+        <div id="content" class="blog-list"></div>
+      </form>
+    </div>
+    <script src="assests/js/blog.js"></script>
+  </body>
+
+</html>

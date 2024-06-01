@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Ini akan mendefinisakn apa document apa yang akan kita buat, yaitu html. sehingga web browser akan menerima
+sebuah response dan akan mengetahui bahwa yang dirender adalah sebuah html -->
+
+<html lang="en">
+    <!-- untuk memberitahu kewebbrowser bahwa bahasa yang ada di html ini adalah bahasa inggris -->
+
+    <head>
+        <meta charset="UTF-8" />
+        <!-- utf-8 ini adalah sekumpulan karakter yang dapat kita gunakan pada html -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ini digunakan agar halaman html kita dapat dimuat pada smartphone phone, content ini berfungsi untuk menagtur
+    lebar dari html mengikuti ukuran smartphone, inistial-scale ini untuk mengatur secara default ukuran awalnya -->
+        <title>document</title>
+        <!-- ini untuk memberikan informasi halaman mana yang sedang dikunjungi -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <!-- ini adalah style css atau bisa di seubut pemangilan css  -->
+    </head>
+
+    <body>
+        <!-- body adalah logika atau berisi instruksi -->
+        <header>
+            <div class="container">
+                <h1>Hi welcome to my hut</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    tristique purus orci libero egestas ut. Augue suspendisse
+                    blandit lorem masso Ipsum, uma egestas mi, lacinia. Dui
+                    fusce atiom libero, lectus amet, risus molestie malesuada
+                    odio nam purus consectetur euismod congue leo quisque.
+                    Turpis amet sollicitudin inc non in lectus dolor amet. Amet
+                    ullamcorper faucibus tincidunt accumsan ac adipiscing arcu.
+                    Donec tristique at proin maecenas Ante elt et inculls oc sit
+                </p>
+            </div>
+            <!-- ini adalah paragraf dan heading dan div yg berisi clas untuk menyambungkan ke css dan header penutup-->
+
+            <button>contact</button>
+            <!-- di sini adalah buton yg dimana untuk mengkilk -->
+            <main>
+                <p>Download CV
+                    <a href="cv.pdf" download="CV_NamaAnda.pdf"
+                        class="download-button">
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                </p>
+            </main>
+            <!-- di atas hanya untuk membuat fitctur yg hanya untuk mendownload -->
+
+            <div class="profile-details">
+                <div class="social-icons">
+                    <a href="mailto:dedehidayyat57@gmail.com" class="icon"><i
+                            class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/6281524399994" class="icon"
+                        target="_blank"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://twitter.com/DedeHid04984064"
+                        class="icon"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/dede31933" class="icon"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="kka.jpg" alt="ini adalah gambar diri kita"
+                    style="width: 50%; border-radius: 15px">
+            </div>
+            <!-- di atas ini adalah fiktur di mana a href yg mengarahkan orang orang ke halama instagram saya pribadi dan di sertai class css di dalam div beserta profil saya di dalam img dan ada fiktur css untuk menyempurnakan  -->
+            <table class="profile">
+                <tr>
+                    <th>Dede hidayat</th>
+                </tr>
+                <tr>
+                    <td>fullstack developer</td>
+                </tr>
+            </table>
+        </header>
+        <!-- dan di atas ini ada tabel dan tr dan td,th, merka memeliki pungsinya masing masing yaitu sama seperti h1 dan paragraf -->
+
+    </body>
+
+</html>

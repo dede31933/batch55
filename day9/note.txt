@@ -1,0 +1,3 @@
+ini tinggal ubah testimonials.js dan harus ada bintang 3
+dan perbaiki my projeck yaitu responsiv iconya
+tugas

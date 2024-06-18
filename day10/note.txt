@@ -1,0 +1,16 @@
+ini belum beres tinggal ulang smuanya di day 9/10
+ dan nanti untuk ngerouting day 11
+ dia merouting 
+
+
+
+
+
+
+
+dan ganti html ke hbs 
+dan lihat duluperhatikan index html bang ari dan lihat codinganya
+trus lihat index.jsnya
+dan jngan lupa /
+nanti lihat lagi video bang ari yg ke 11 di  1:30:00
+  jngan lupa intsall npm i express nodemon hbs nanti

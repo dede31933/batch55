@@ -1,0 +1,179 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/src/assests/css/addmyproject.css"
+    />
+    <link rel="stylesheet" href="/src/assests/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <!-- content navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1224px-NASA_logo.svg.png"
+            class="rounded"
+            alt="Rounded image"
+            width="45"
+            height="auto"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-medium"
+                aria-current="page"
+                href="/addmyproject"
+              >Add Project</a>
+            </li>
+          </ul>
+          <div class="ms-auto">
+            <a href="/contact" type="button" class="btn btn-dark">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar content end -->
+
+    <!--Add Content My project  -->
+    <div class="container">
+      <h1 class="text-center fw-bold my-5">Add My Project</h1>
+      <form class="row mx-auto">
+        <div class="col-md-8 offset-md-2">
+          <label for="project" class="form-label fw-bold">Project Name</label>
+          <input
+            type="text"
+            class="form-control"
+            type="text"
+            id="inputProject"
+            name="inputProject"
+          />
+        </div>
+        <div class="col-md-4 offset-md-2">
+          <label for="britday" class="form-label fw-bold">Start Date</label>
+          <input
+            type="date"
+            class="form-control"
+            id="inputDatetime"
+            name="Datetime"
+          />
+        </div>
+        <div class="col-md-4">
+          <label for="britday" class="form-label fw-bold">End Date</label>
+          <input
+            type="date"
+            class="form-control"
+            id="inputDatetime"
+            name="Datetime"
+          />
+        </div>
+        <div class="col-md-8 offset-md-2 my-3">
+          <label
+            for="inputDescription"
+            class="form-label fw-bold"
+          >Description</label>
+          <textarea
+            class="form-control inputcontact"
+            id="inputDescription"
+            name="description"
+          ></textarea>
+        </div>
+        <label class="col-md-8 offset-md-2 my-3">Technologies</label>
+        <div class="col-md-8 offset-md-2 my-3">
+          <div class="technologies">
+            <div class="left-tech">
+              <label><input
+                  type="checkbox"
+                  name="technologies"
+                  value="Node Js"
+                  id="NodeJs"
+                />
+                Node Js</label>
+              <label><input
+                  type="checkbox"
+                  name="technologies"
+                  value="React Js"
+                  id="ReactJs"
+                />
+                React Js</label>
+            </div>
+            <div class="right-tech">
+              <label><input
+                  type="checkbox"
+                  name="technologies"
+                  value="Next Js"
+                  id="NextJs"
+                />
+                Next Js</label>
+              <label><input
+                  type="checkbox"
+                  name="technologies"
+                  value="TypeScript"
+                  id="TypeScript"
+                />
+                TypeScript</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 offset-md-2">
+          <label for="image" class="form-label fw-bold">Project Name</label>
+          <input
+            type="file"
+            class="form-control"
+            id="inputImage"
+            name="image"
+          />
+        </div>
+        <div class="col-md-8 offset-md-2 d-flex justify-content-end mt-4">
+          <input
+            type="submit"
+            value="Submit"
+            class="btn btn-dark w-25 divv"
+            id="submitButton"
+          />
+        </div>
+      </form>
+    </div>
+    <!-- end add  Content My project  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

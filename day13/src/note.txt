@@ -1,0 +1,5 @@
+ini tinggal ketika di input dia ada logo js dan yg lain lainnya
+ini day 13 kan tinggal di imput dia muncul di home/ini perbaiki lagi 
+terus nanti perbaiki lagi updatenya tidak berpungsi trus project detailnya sama belum kaya day 12
+kenapa saya bisa duratin karena saya mengisntal ini npm install moment
+npm install moment

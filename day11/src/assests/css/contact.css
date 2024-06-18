@@ -1,0 +1,12 @@
+.inputcontact {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea.inputcontact {
+  resize: none;
+  height: 100px;
+}

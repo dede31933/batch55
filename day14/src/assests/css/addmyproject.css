@@ -1,0 +1,31 @@
+.inputcontact {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea.inputcontact {
+  resize: none;
+  height: 100px;
+}
+
+.technologies {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  justify-content: left;
+}
+
+.technologies .left-tech,
+.technologies .right-tech {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.divv {
+  border-radius: 13px;
+}

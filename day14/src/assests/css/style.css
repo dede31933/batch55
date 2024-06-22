@@ -1,0 +1,55 @@
+body {
+  background-color: #e7e3e3;
+}
+
+/* Navigation link hover and active state */
+.nav-link:hover,
+.nav-link.active {
+  color: orange;
+}
+
+/* Profile section styling */
+.profile-section {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture styling */
+.profile-picture {
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 270px;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon styling */
+.icon1 a {
+  margin-right: 18px;
+  font-size: 1.5rem;
+}
+
+.icon1 a:hover {
+  color: #007bff;
+}
+
+.card-body .btn {
+  width: 48%;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+/* Icon projek section styling */
+.icon2 i {
+  font-size: 1.4rem;
+  margin: 0 7px;
+  transition: font-size 0.3s;
+}
+
+.icon2 i:hover {
+  font-size: 2.5rem;
+}
